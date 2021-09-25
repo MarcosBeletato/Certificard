@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+body {
+	background-image: url("https://wallpaperaccess.com/full/869.jpg");
+	font-family: "Press Start 2P", cursive;
+}
+
+.container {
+	background: #ecf4ff;
+	margin: 64px;
+	padding: 64px;
+	color: #1c1c1c;
+	box-shadow: 6px 6px 6px #0e1d2f;
+	border-radius: 20px;
+}
+
+.cabecalho {
+	display: flex;
+	justify-content: space-between;
+}
+
+.perfil {
+	display: flex;
+}
+
+.perfil-foto {
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 460px;
+	max-height: 160px:
+}
+
+.titulo {
+	margin-left: 20px;
+}
+
+.titulo h1 {
+	font-weight: 700;
+	font-size: 36px;
+}
+
+.titulo h3 {
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.tema button {
+	font-family: "Press Start 2P", cursive;
+	align-self: flex-end;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 8px 16px;
+	border-radius: 100px;
+	background: #FF9999;
+	border-color: #FF9999;
+	border-width: 5px;
+}
+
+.projetos {
+	display: flex;
+	flex-direction: column;
+}
+
+.projetos-titulo {
+	list-style: none;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 56px;
+}
+
+.projetos li {
+	list-style-type: none;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 48px;
+}
+
+.projetos li a {
+	color: #1C1C1C;
+	text-decoration: none;
+}
+
+.projetos li a:hover {
+	color: #4E5754;
+}
+
+.links {
+	margin-top: 24px;
+	padding: 24px;
+	background: linear-gradient(230.65deg, #FF9999 35.49%, #6C4675 83.19%);
+	box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+	border-radius: 20px;
+}
+
+.redes ul {
+	display: flex;
+}
+
+.redes ul li {
+	list-style-type: none;
+	align-items: center;
+	padding-right: 56px;
+	padding-left:14px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 48px;
+}
+
+.redes li a {
+	color: #1C1C1C;
+	text-decoration: none;
+}
+
+.redes li a:hover {
+	color: #808080;
+}
+
+
+.image {
+	max-height: 24px;
+	margin-top: 8px
+}
+
+.dark {
+	background-image: url("https://art.ngfiles.com/images/642000/642224_dantheassassin_city-pixel-art.png?f1536939614");
+}
+
+.dark .container {
+	background: #333439;
+	color:#F6F6F6;
+}
+
+/* .dark .projetos {
+	color: #1C1C1C
+}
+*/
+
+.dark .tema button {
+	background: #1C1C1C;
+	color: #FFFFFF;
+	border-color: #1C1C1C;
+}
+
+.dark .links {
+	background: linear-gradient(230.65deg, #152238 35.49%,#FFF2A6  95.19%);
+}
